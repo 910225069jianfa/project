@@ -1,0 +1,143 @@
+main {
+    position: relative;
+    margin-top: 15px;
+}
+#messi{
+    height: 865px;
+    background-color: rgba(31, 121, 163, 0.603);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #messi img{
+    width: 1320px;
+    height: 742.5px;
+    cursor: pointer;
+    transition: all 0.4s;
+    border-radius: 8px;
+    /* border: 1px solid aqua; */
+  }
+  #messi img:hover{
+    transform: scale(1.13);
+  }
+  .img-text {
+    width: 600px;
+    position: relative;
+    color: rgba(31, 121, 163, 0.8);
+    top: -300px;
+    right: -300px;
+    font-size: 50px;
+  }
+  .units {
+    margin-top: -154px;
+    background-color: #EEEEE4;
+    height: 600px;
+  }
+  .units h4{
+    font-size: 40.54px;
+    color: #550065;
+  }
+  .units-tent {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+    width: 1290px;
+    margin: 0 auto;
+    padding: 50px  0;
+  }
+  .rank {
+    display: flex;
+    height: 700px;
+    padding: 120px 0;
+  }
+  .rank-left{
+    height: 980px;
+    float: left;
+    padding: 20px;
+    width: 300px;
+    position: sticky;
+    top: 0;
+  }
+  .rank-left img {
+    margin-bottom: 25px;
+  }
+  .rank h3 {
+    font-size: 50.32px;
+    margin-bottom: 20px;
+  }
+  .rank-left p {
+    color: 505b73;
+  }
+  .rank-right {
+    /* display: flex; */
+    margin: 0 40px;
+    padding: 15px;
+  }
+  .rank-right h5{
+    font-size: 32.6px;
+    color: #000f2c;
+  }
+.sc{
+  font-size: 16px;
+  color: #505b73;
+}
+.number{
+  padding: 2px;
+  font-weight: bolder;
+  font-size: 25px;
+}
+.guoqi {
+  align-items: center;
+  display: flex;
+  height: 105px;
+}
+.guoqi img{
+  padding: 10px;
+  margin-left: 5px;
+  width: 64px;
+  height: 42px;
+}
+.guoqi hr {
+  background-color: rgba(0, 0, 0, 0.24);
+  border: none; 
+  height: 1px;
+  width: 300px;
+  position: relative;
+  bottom: -50px;
+  left: -300px;
+}
+.texts{
+  margin-right: 20px;
+  margin-left: 25px;
+  font-size: 26px;
+}
+.score {
+  font-size: 22.5px;
+  color: 000f2c;
+}
+.RRR{
+  margin-left: -100px;
+}
+footer h3{
+  margin: 28px 0;
+  text-align: center;
+}
+.imgs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 200px;
+}
+.imgs img{
+  margin: 0 20px;
+  width: 114px;
+  height: 57px;
+}
+.baogao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+}

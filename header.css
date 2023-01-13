@@ -1,0 +1,67 @@
+.heads {
+    padding: 0;
+    margin-bottom: 12px;
+}
+.icons {
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+#FAFI{
+    display: flex;
+    justify-content: center;
+}
+#R-round {
+    font-weight: normal;
+}
+a {
+    color: #000f2c;
+    text-decoration: none;
+}
+#right a {
+    padding: 30px;
+    font-size: large;
+    text-decoration: none;
+    color:#000f2c;
+}
+a:hover {
+    color: #1277d9;
+    cursor: pointer;
+}
+#right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 66px;
+}
+.shuxian {
+    width: 1px;
+    height: 32px;
+    border-left: rgba(0, 0, 0, 0.199);
+    border-left-style: solid;
+    border-width: 1px;
+}
+.erji {
+    margin: 10px 0;
+    height: 100pxs;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+}
+.erjison {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+.erjison:hover {
+    background-color: #eaeaef;
+    height: 120px;
+}

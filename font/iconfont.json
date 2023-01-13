@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1664367",
+      "name": "上箭头",
+      "font_class": "shangjiantou",
+      "unicode": "e730",
+      "unicode_decimal": 59184
+    },
+    {
+      "icon_id": "15323506",
+      "name": "R_round_字母r",
+      "font_class": "R_round",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "15464827",
+      "name": "R_round_solid_字母r_by_climei",
+      "font_class": "R_round_solid",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    }
+  ]
+}

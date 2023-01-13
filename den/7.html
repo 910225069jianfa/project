@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>登录页面</title>
+<style>
+    * {
+ padding: 0;
+ margin: 0;
+ border: 0;
+}
+
+body {
+ font-size: 18px;
+ font-family: "黑体";
+ background: url(19.jpg) no-repeat top center;
+ color: #FFF;
+}
+
+form {
+ width: 420px;
+ height: 200px;
+ padding-top: 60px;
+ margin: 250px auto;
+ background: rgb(255,255,255,0.1);
+ border-radius: 20px;
+ border: 1px solid rgba(255,255,255,0.3);
+}
+.form-control {
+ margin-top: 15px;
+ text-align: center;
+}
+
+.number,.pas {
+ width: 165px;
+ height: 18px;
+ border: 1px solid rgba(255,255,255,0.3);
+ padding: 2px 2px 2px 22px;
+ border-radius: 5px;
+ color: #FFF;
+}
+.number {
+    background:url() no-repeat 5px center rgb(255,255,255,0.1) ;
+}
+.pas {
+ background: url() no-repeat 5px center rgba(255,255,255,0.3);
+}
+.loginbtn {
+ width: 193px;
+ height: 28px;
+ border-radius: 6px;
+ border: 10px solid #000;
+ margin-left: 45px;
+ background: #2d77bd;
+ color: #FFF;
+ border: none;
+ margin-top:10px;
+}
+</style>
+ </head>
+ <body>
+  <form action="#" method="post">
+   <div class="form-control">
+    <label for="username">账号</label>
+    <input type="text" id="username" name="username" class="number" pattern="^[a-zA-Z][a-zA-Z0-9][]$" required />
+   </div>
+   <div class="form-control">
+    <label for="password">密码</label>
+    <input type="password" id="password" name="pas" class="pas" pattern="^[a-zA-Z]\w{5,17}$" required/>
+   <button class="loginbtn" >登录</button>
+   <button class="loginbtn" >忘记密码</button>
+  </form>
+ </body>
+</html>
